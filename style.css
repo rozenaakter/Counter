@@ -1,0 +1,21 @@
+
+.container{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.counter{
+    /* font-size:40px; */
+}
+
+button{
+    font-size: 30px;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+button:disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
